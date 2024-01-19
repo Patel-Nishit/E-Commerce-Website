@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORSX</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,600;0,700;0,800;0,900;1,200;1,300;1,400&family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="js/Jquery.js">
+    <link rel="stylesheet" href="css/add-to-cart.css">
+
+</head>
+
+<body>
+    <header id="header">
+        <section class="banner">
+            <div class="page-wrapper">
+                <div class="page-header">
+                    <div class="page-navbar">
+                        <a href="#" itemprop="url" class="nav-icon-link" rel="home"></a>
+                    </div>
+                    <nav class="navbar fixed-top navbar-expand-sm pt-4" role="navigation" aria-label="Top Menu">
+                        <ul class="navbar-nav" id="main-menu1">
+                            <li class="li-items-menu">
+                                <a href="#" class="a-items-menu">
+                                    <span class="span-items-menu">Home</span>
+                                </a>
+                            </li>
+                            <!-- <div class="qodef-drop-down-second">
+                                <div class="qodef-drop-down-second-inner">
+                                    <ul class="sub-menu">
+                                        <li class="menu-item-home">
+                                            <a href="https://corsen.qodeinteractive.com/"><span
+                                                    class="span-items-menu">Main Home</span></a>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-734">
+                                            <a href="https://corsen.qodeinteractive.com/shop-metro/"><span
+                                                    class="span-items-menu">Shop Metro</span></a>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-602">
+                                            <a href="https://corsen.qodeinteractive.com/left-menu-home/"><span
+                                                    class="span-items-menu">Left Menu Home</span></a>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2985">
+                                            <a href="https://corsen.qodeinteractive.com/horizontal-shop/"><span
+                                                    class="span-items-menu">Horizontal Shop</span></a>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-389">
+                                            <a href="https://corsen.qodeinteractive.com/denim-store/"><span
+                                                    class="span-items-menu">Denim Store</span></a>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-864">
+                                            <a href="https://corsen.qodeinteractive.com/split-screen-showcase/"><span
+                                                    class="span-items-menu">Split Screen Showcase</span></a>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-688">
+                                            <a href="https://corsen.qodeinteractive.com/fashion-store/"><span
+                                                    class="span-items-menu">Fashion Store</span></a>
+                                        </li>
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5677">
+                                            <a href="https://corsen.qodeinteractive.com/coming-soon/"><span
+                                                    class="span-items-menu">Coming Soon</span></a>
+                                        </li>
+                                    </ul>
+                                </div> -->
+
+                            <li class="li-items-menu">
+                                <a href="#" class="a-items-menu">
+                                    <span class="span-items-menu">pages</span>
+                                </a>
+                            </li>
+                            <li class="li-items-menu">
+                                <a href="#" class="a-items-menu">
+                                    <span id="span-nav-shop" class="span-items-menu">shop</span>
+                                </a>
+                            </li>
+                            <li class="li-items-menu">
+                                <a href="#" class="a-items-menu">
+                                    <span class="span-items-menu">blog</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="main-menu-right">
+                            <div class="search-bar-nav" id="">
+                                <form action="" method="get" class="form-searchBar">
+                                    <div class="text-search">
+                                        <input type="text" placeholder="Search" name="s" class="search-btn"
+                                            autocomplete="off" required>
+                                        <button type="submit" class="btn-search-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12.001" height="11.784"
+                                                viewBox="0 0 12.001 11.784">
+                                                <g fill="none" stroke="currentColor">
+                                                    <g>
+                                                        <ellipse cx="4.869" cy="4.831" rx="4.869" ry="4.831"
+                                                            stroke="none">
+                                                        </ellipse>
+                                                        <ellipse cx="4.869" cy="4.831" rx="4.369" ry="4.431">
+                                                        </ellipse>
+                                                    </g>
+                                                    <path d="m7.828 7.655 3.822 3.774"></path>
+                                                </g>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="cart-item-nav">
+                                <div class="text-cart-dropdown">
+                                    <div class="cart-dropdown">
+                                        <a class="a-cart" href="#" itemprop="url">
+                                            <span class="cart-item-txt">cart</span>
+                                            <span class="cart-item-icon">
+                                                <svg class="svg-cart" xmlns="http://www.w3.org/2000/svg" width="12.578"
+                                                    height="15.5" viewBox="0 0 12.578 15.5">
+                                                    <g fill="none">
+                                                        <path
+                                                            d="M8.95835778 4.13258219H3.36799794V3.474442c0-1.64011002 1.25390998-2.97443998 2.79518-2.97443998 1.54126978 0 2.79517984 1.33432996 2.79517984 2.97443998v.65814018Z">
+                                                        </path>
+                                                        <path
+                                                            d="M6.16317794 1.00000215c-1.26557017 0-2.29517985 1.11002993-2.29517985 2.47443986v.15814018h4.59035969V3.474442c0-1.36440993-1.02960968-2.47443986-2.29517984-2.47443986m0-1.00000024c1.81988 0 3.29517984 1.5555601 3.29517984 3.4744401v1.15814018H2.86799809V3.474442c0-1.91888 1.47529984-3.4744401 3.29517985-3.4744401Z"
+                                                            fill="currentColor">
+                                                        </path>
+                                                        <path d="M.5 15V3.625h11.578V15Z" fill="none"
+                                                            stroke="currentColor">
+                                                        </path>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                            <span class="cart-item-count">0</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wishlist-item-nav">
+                                <div class="text-wishlist-widget-holder">
+                                    <div class="wishlist-item-icon">
+                                        <a class="a-wishlist" href="#" title="View Wishlist">
+                                            <span class="wishlist-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12.123" height="15"
+                                                    viewBox="0 0 12.123 15">
+                                                    <g fill="none">
+                                                        <path
+                                                            d="M.49998437 13.98803125V.50023828h11.12304688V13.93725L6.61717187 9.7941836l-.30664062-.25390626-.31542969.2421875-5.49511719 4.20556641Z">
+                                                        </path>
+                                                        <path
+                                                            d="M.99998437 1.00023828v11.97558594l5.3232422-4.07421875 4.79980468 3.97265625V1.00023828H.99998437m-1-1h12.12304688v15L6.2988125 10.1794375l-6.29882813 4.82080078v-15Z"
+                                                            fill="currentColor">
+                                                        </path>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                            <span class="wishlist-item-count">0</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="membership-login-item-nav">
+                                <div class="login-user-item">
+                                    <a href="Login.html" class="a-membership">
+                                        <span class="membership-icon-nav">
+                                            <svg class="icon-member" xmlns="http://www.w3.org/2000/svg" width="14.779"
+                                                height="15" viewBox="0 0 14.779 15">
+                                                <g fill="none">
+                                                    <g transform="translate(3.39)" stroke="currentColor">
+                                                        <circle cx="4" cy="4" r="4" stroke="none"></circle>
+                                                        <circle cx="4" cy="4" r="3.5" fill="none"></circle>
+                                                    </g>
+                                                    <g>
+                                                        <path
+                                                            d="M14.17692184 14.50041529H.60172868c.83336556-3.89600897 3.61719537-6.66541979 6.78759837-6.66541979 3.17023659 0 5.954216 2.7694206 6.7875948 6.66541979Z">
+                                                        </path>
+                                                        <path
+                                                            d="M13.53995705 14.00041529c-.92537117-3.34392453-3.3820572-5.66541982-6.15063-5.66541982-2.76871014 0-5.2252841 2.32154107-6.15064514 5.66541982h12.30127514m1.23869991 1H-.00000295c.70938-4.44227982 3.8174499-7.6654198 7.38933-7.6654198 3.57176018 0 6.67930984 3.22313998 7.38908958 7.66388009l.00024033.0015397Z"
+                                                            fill="currentColor">
+                                                        </path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            </div>
+            <section class="page-outer">
+                <div class="page-content-align-right">
+                    <div class="page-inner">
+                        <div class="page-content">
+                            <div class="content-right-section">
+                                <a href="index.html" class="page-content-link" itemprop="url">
+                                    <span class="span-tag-page" itemprop="title">home</span>
+                                </a>
+                                <span class="content-seprator"></span>
+
+                                <a href="index.html#section-shopping-content" class="page-content-link" itemprop="url">
+                                    <span class="span-tag-page1" itemprop="title">Cart</span>
+                                </a>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="page-content-inner" class="page-content-grid">
+                    <main id="page-content-main" class="page-grid page-layout-template" role="main">
+                        <div class="page-grid-inner">
+                            <div class="page-grid-item page-content-section">
+                                <div class="page-cart-final">
+                                    <div id="page-final" class="page-cart">
+                                        <div class="page-notices-wrapper"></div>
+                                        <form action="#cart" class="page-cart-form" method="post">
+                                            <table class="shop-table shop-table-responsive" cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="product-remove">
+                                                            <span class="screen-reader-text">Remove item</span>
+                                                        </th>
+                                                        <th class="product-thumbnail d-none">
+                                                            <span class="screen-reader-text">Thumbnail image</span>
+                                                        </th>
+                                                        <th class="product-name px-5">Product</th>
+                                                        <th class="product-price">Price</th>
+                                                        <th class="product-quantity">Quantitiy</th>
+                                                        <th class="product-subtotal">Subtotal</th>
+                                                    </tr>
+                                                </thead>
+                                                <!--  <tbody>
+                                                    <tr class="page-cart-form-cart-item cart-item">
+                                                        <td class="product-remove">
+                                                            <a href="#" class="remove" aria-label="Remove this item"
+                                                                data-product_id="335" data-product_sku="016">x</a>
+                                                        </td>
+                                                        <td class="product-thumbnail">
+                                                            <a href="#CottonSweater" class="remove"
+                                                                aria-label="Remove this item" data-product_id="335"
+                                                                data-product_sku="016">x</a>
+                                                        </td> -->
+                                                <tbody>
+                                                    <tr class="page-cart-form-cart-item cart-item">
+                                                        <td class="product-remove">
+                                                            <a href="#" class="remove" aria-label="Remove this item"
+                                                                data-product_id="237" data-product_sku="008">×</a>
+                                                        </td>
+                                                        <td class="product-thumbnail">
+                                                            <a href="images/black-jacket/Product-img-6.jpg"><img
+                                                                    src="images/black-jacket/Product-img-6.jpg"
+                                                                    class="attachment-page_thumbnail size-page_thumbnail"
+                                                                    alt="a" decoding="async" loading="lazy"></a>
+                                                        </td>
+                                                        <td class="product-name" data-title="Product">
+                                                            <a href="images/black-jacket/Product-img-6.jpg">Black
+                                                                Jacket</a>
+                                                        </td>
+                                                        <td class="product-price" data-title="Price">
+                                                            <span class="woocommerce-Price-amount amount"><bdi><span
+                                                                        class="page-Price-currencySymbol">$</span>350.00</bdi></span>
+                                                        </td>
+                                                        <td class="product-quantity" data-title="Quantity">
+                                                            <div class="page-quantity-button quantity">
+                                                                <label class="screen-reader-text"
+                                                                    for="quantity_6449162ce331c">Black Jacket</label>
+                                                                <span class="page-quantity-minus"></span>
+                                                                <input type="text" id="quantity_6449162ce331c"
+                                                                    class="input-text qty text page-quantity-input"
+                                                                    data-step="1" data-min="0" data-max=""
+                                                                    name="cart[f9b902fc3289af4dd08de5d1de54f68f][qty]"
+                                                                    value="1" title="Qty" size="4" placeholder=""
+                                                                    inputmode="numeric">
+                                                                <span class="page-quantity-plus"></span>
+                                                            </div>
+                                                        </td>
+                                                        <td class="product-subtotal" data-title="Subtotal">
+                                                            <span class="page-Price-amount amount"><bdi><span
+                                                                        class="page-Price-currencySymbol">$</span>160.00</bdi></span>
+                                                        </td>
+                                                    </tr>
+
+
+                                                    <tr>
+                                                        <td colspan="6" class="actions">
+                                                            <div class="coupon">
+                                                                <label for="coupon_code">Coupon:</label> <input
+                                                                    type="text" name="coupon_code" class="input-text"
+                                                                    id="coupon_code" value="" placeholder="Coupon code">
+                                                                <button type="submit" class="button wp-element-button"
+                                                                    name="apply_coupon" value="Apply coupon">Apply
+                                                                    coupon</button>
+                                                            </div>
+                                                            <button type="submit" class="button wp-element-button"
+                                                                name="update_cart" value="Update cart"
+                                                                aria-disabled="false">Update cart</button>
+                                                            <input type="hidden" id="page-cart-nonce"
+                                                                name="page-cart-nonce" value="b2b5db7837"><input
+                                                                type="hidden" name="_wp_http_referer" value="/cart/">
+                                                        </td>
+                                                    </tr>
+
+                                                </tbody>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </section>
+        </section>
+
+    </header>
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
