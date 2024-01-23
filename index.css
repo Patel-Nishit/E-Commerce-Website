@@ -501,7 +501,10 @@ h6 {
 
 /* MAN_WOMEN Collection ENDS */
 
-
+/* all company review section starts here  */
+.carousel-company-review {
+    padding: 40px 0 50px;
+}
 
 /*partnership onxy section starts here */
 .onyx-section {
