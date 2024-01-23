@@ -1866,23 +1866,10 @@ h6 {
     padding-bottom: ;
 }
 
-.footer-list-anchor:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0.0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #000;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-.footer-widget_block:hover .footer-list-anchor:after {
-    transform: scaleX(1.0);
-    transform-origin: bottom left;
-}
+.footer-list-anchor:hover{
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+} 
 
 .widget_cosrx_core_single_image {
     margin: 0 14px 7px;
